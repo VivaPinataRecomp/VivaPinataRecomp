@@ -1,0 +1,29 @@
+[main]
+file_path = "../private/default.xex"
+out_directory_path = "../ppc"
+switch_table_file_path = "jump.toml"
+
+skip_lr = true
+skip_msr = true
+ctr_as_local = true
+xer_as_local = true
+reserved_as_local = true
+cr_as_local = true
+non_argument_as_local = true
+non_volatile_as_local = true
+
+restgprlr_14_address = 0x8269a060
+savegprlr_14_address = 0x8269a010
+restfpr_14_address = 0x8269a10c
+savefpr_14_address = 0x8269a0c0
+restvmx_14_address = 0x8269a998
+savevmx_14_address = 0x8269a700
+# Might have to switch these last two, ghidra shit the bed on me
+restvmx_64_address = 0x8269a794
+savevmx_64_address = 0x8269aa2c
+
+# idk which, if either, is correct
+# longjmp_address = 0x826ab9e0
+# setjmp_address = 0x826aba08
+longjmp_address = 0x826b00c0
+setjmp_address = 0x826b016c
