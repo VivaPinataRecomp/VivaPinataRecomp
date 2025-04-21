@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# this is from the function parser script, we don't want to track any of it but I'm lazy rn
+default.xex.html
+
 # User-specific files
 *.rsuser
 *.suo

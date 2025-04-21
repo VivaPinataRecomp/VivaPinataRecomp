@@ -1,32 +1,3 @@
-[main]
-file_path = "../private/default.xex"
-out_directory_path = "../ppc"
-switch_table_file_path = "SWA_switch_tables.toml"
-
-#skip_lr = true
-#skip_msr = true
-#ctr_as_local = true
-#xer_as_local = true
-#reserved_as_local = true
-#cr_as_local = true
-#non_argument_as_local = true
-#non_volatile_as_local = true
-
-restgprlr_14_address = 0x8269a060
-savegprlr_14_address = 0x8269a010
-restfpr_14_address = 0x8269a10c
-savefpr_14_address = 0x8269a0c0
-restvmx_14_address = 0x8269a998
-savevmx_14_address = 0x8269a700
-# Might have to switch these last two, ghidra shit the bed on me
-savevmx_64_address = 0x8269a794
-restvmx_64_address = 0x8269aa2c
-
-longjmp_address = 0x826ab9e0
-setjmp_address = 0x826b00c0
-
-## Generated via python script from PR
-
 functions = [
     { address = 0x823C0540, size = 0x108 },
     { address = 0x823C2218, size = 0xB0 },
@@ -154,5 +125,5 @@ functions = [
     { address = 0x82446410, size = 0xB0 },
     { address = 0x823C06F8, size = 0x150 },
     { address = 0x8266BCE0, size = 0x318 },
-    { address = 0x822DF940, size = 0x1A8 },
+    { address = 0x822DF940, size = 0x1A8 }
 ]

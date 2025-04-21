@@ -1,0 +1,16 @@
+functions = [
+    { address = 0x821F8850, size = 0x4C },
+    { address = 0x8265F288, size = 0xB20 },
+    { address = 0x8238AF30, size = 0x104 },
+    { address = 0x822DEB80, size = 0x58 },
+    { address = 0x82659000, size = 0x490 },
+    { address = 0x8266BCE0, size = 0x318 },
+    { address = 0x82666F28, size = 0x5F0 },
+    { address = 0x82579550, size = 0x58 },
+    { address = 0x8238AC20, size = 0xE0 },
+    { address = 0x822F1284, size = 0x1D8 },
+    { address = 0x82443F88, size = 0x34 },
+    { address = 0x823090F8, size = 0x2FC },
+    { address = 0x8217EA78, size = 0x6C },
+    { address = 0x82652158, size = 0x350 }
+]
